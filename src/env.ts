@@ -30,6 +30,7 @@ const EnvSchema = z.object({
       z.literal("silent"),
     ])
     .default("info"),
+  RESEND_API_KEY: z.string(),
   APP_URL: z.string().url(),
 });
 
