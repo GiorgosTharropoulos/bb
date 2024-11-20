@@ -30,6 +30,7 @@ const EnvSchema = z.object({
       z.literal("silent"),
     ])
     .default("info"),
+  APP_URL: z.string().url(),
 });
 
 export const env = EnvSchema.parse(process.env);
