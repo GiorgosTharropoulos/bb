@@ -1,6 +1,7 @@
 {
   "name": "bb",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "tsx watch src/index.ts"
   },
